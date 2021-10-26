@@ -1,0 +1,93 @@
+body{
+    padding-top: 800px;
+    margin: 0px;
+}
+
+.profile{
+    width: 200px;
+    margin-bottom: 30px;
+    margin-top: 20x;
+    border: 5px ;
+    padding: 5px;
+}
+
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 80px;
+    color: crimson;
+    left: 0;
+    right:0;
+    top:0;
+    bottom:0;
+    opacity: inherit;
+    background-image: linear-gradient( pink , yellow );
+    display:table;
+        width:100%;
+    height:100%;
+    z-index:9;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.inner{
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.line{
+    height: 6px;
+    background-color: darkgrey;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#bio{
+    font-size: 42px;
+    text-align: center;
+    padding: 50px;
+    background-image: linear-gradient( pink , yellow);
+    
+}
+
+.menu{
+    float: right;
+    top: 10px;
+    right: 30px;
+    color: red;
+    z-index:10;
+    position: absolute;
+}
+
+.links{
+    float: left;
+    color:blueviolet;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size 20px;
+    border: 2px;
+}
+
+.links:hover{
+    background-image: white;
+    font-size: 25px;
+   
+    font-family: fantasy;
+    
+}
